@@ -340,6 +340,10 @@ h1{
 
 /* Footer Css */
 
+footer{
+    margin-bottom: 2rem;
+}
+
 .footerTop{
     display: flex;
     justify-content: center;
@@ -357,6 +361,33 @@ h1{
     height: 2.5px;
     
     margin-top: 1.5%;
+}
+
+.socials{
+  margin-left: 23%;
+    display: flex;
+    gap: 8%;
+   
+}
+
+.socials img{
+    
+    width: 140%;
+
+}
+
+.footerRight{
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -3.5%;
+}
+
+.footerRight a{
+    text-decoration: none;
+    color: black;
+    font-family: "abby";
+    font-size: 80%;
+    font-weight: bolder;
 }
 
 
