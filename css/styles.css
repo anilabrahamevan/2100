@@ -1,0 +1,371 @@
+/* RESET CSS ////////////////////////////////////////// */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* FONTS /////////////////////////////////////////////// */
+
+/* app font */
+/* app font */
+@font-face {
+    font-family: "Font1";
+    src: url(fonts/CandyRoundBTNCond.ttf);
+  }
+
+@font-face {
+    font-family: "Font2";
+    src: url(fonts/Cascadia.ttf);
+  }
+
+@font-face {
+    font-family: "abby";
+    src: url(fonts/ABEAKRG.TTF);
+  }
+
+body{
+    background-color: #e9e6db;
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    min-height: 100vh;
+}
+
+
+/* Logo Css */
+.logo{
+    width: 9%;
+    margin: .3rem auto .1rem auto;
+}
+
+.line1{
+    margin-top: .3rem;
+}
+.line2{
+    margin-bottom: .4rem;
+}
+
+/* Navigation css */
+
+nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 100%;
+  }
+  
+ 
+  
+  nav a {
+    text-decoration: none;
+    color: #333; 
+    font-family: "Font1";
+    
+    letter-spacing:1px;
+    font-weight: bold;
+  }
+
+nav ul a:hover {
+   color: #e88074;
+}
+
+.logo img{
+    width: 100%;
+}
+
+/* General  */
+
+h1{
+    font-size: 120%;
+    color: #e88074;
+}
+
+.slider h1{
+    font-size: 70%;
+    color: #e88074;
+    font-family: "abby";
+    margin-left: 20.2%;
+    position: absolute;
+    z-index: 100;
+    margin-top: .8%;
+}
+
+/* Slider Css */
+
+.background{
+    width: 100vw;
+    
+  
+    position: relative;
+}
+
+.sliderBackground{
+    width: 100vw;
+   
+}
+
+.sliderImg0{
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+}
+.sliderImg1{
+    display: none;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+}
+.sliderImg2{
+    display: none;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2.5%;
+}
+
+.sliderLeft{
+    position: absolute;
+    width:1.5%;
+    margin-left: 21%;
+    margin-top: 19%;
+    z-index: 100;
+    cursor: pointer;
+}
+ .sliderRight{
+    position: absolute;
+    width: 1.47%;
+    margin-left: 77%;
+    margin-top: 19%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+
+.sliderLeft:hover ,  .sliderRight:hover{
+    background-color: rgb(46, 46, 46);
+    border-radius: 3rem;
+    
+}
+
+/* Section 2  */
+#sec1 .secHead img{
+    width: 1.3%;
+    margin-top: -.3%;
+}
+
+#sec1{
+    margin-top: 1.5%;
+}
+
+.secHead{
+    display: flex;
+    gap: 1%;
+    font-family: "abby" ;
+    color: #e75a4f;
+    margin-left: 20%;
+}
+
+/* Grid css */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 1%;
+}
+
+.secCon1{
+    width: 61%;
+    margin-left: 20%;
+    margin-top: 1%;
+    background-color: #c5a48e;
+    padding: .5% .4% .2% .5%;
+}
+
+.secCon1 img{
+    width: 100%;
+    transition: 1s ease;
+}
+.secCon1 img:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.column2{
+    display: flex;
+   gap: 1.5%;
+   
+   flex-wrap: wrap;
+   
+  
+}
+
+.column1 img{
+   padding-bottom: 1.4%;
+   
+  
+}
+
+.column2 img{
+     width: 49%;
+     padding-bottom: 1%;
+    
+}
+
+.img2{
+    margin-top: 1%;
+}
+
+/* Section 3 */
+
+#sec2 .secHead img{
+    width: 2%;
+    margin-top: -.3%;
+}
+
+#sec2 .secHead {
+    margin-top: 1.5%;
+}
+
+.infoCon{
+    display: flex;
+    width: 62%;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.infoCon h2{
+    font-family: "Font2";
+    font-size: 100%;
+}
+
+.info{
+    font-family: "Font2";
+    font-size: 100%;
+}
+
+/* Section 4 */
+
+#sec3 .secHead img{
+    width: 2%;
+    margin-top: -.3%;
+}
+
+#sec3{
+    margin-top: 1.5%;
+}
+
+.news{
+    font-family: "abby";
+    display: flex;
+    flex-wrap: wrap;
+    width: 61%;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding: .5% .4% .2% .5%;
+    gap:1.5%;
+}
+
+.news img{
+   width: 32.3%;
+   height: auto;
+   margin-bottom: 1.5%;
+}
+
+.news p{
+    width: 32.3%;
+    
+}
+
+.news p::before{
+    content:"NEW" ;
+    color: #e75a4f;
+}
+
+/* Section 5 */
+
+#sec4 .secHead img{
+    width: 2%;
+    margin-top: -.3%;
+}
+
+#sec4{
+    margin-top: 1.5%;
+}
+
+.feeds{
+    font-family: "abby";
+    display: flex;
+    flex-wrap: wrap;
+    width: 63%;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding: .5% .4% .2% .5%;
+    gap:1.5%;
+
+}
+
+.feedIn{
+   display: flex;
+   width: 28%;
+   flex-wrap: wrap;
+
+   margin-right: 2.8%;
+}
+
+.feedIn img{
+    width: 110%;
+}
+
+.feedIn h1{
+   font-size: 70%;
+   margin-top: 6.5%;
+   color: grey;
+   margin-bottom: 3%;
+}
+
+/* Footer Css */
+
+.footerTop{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+    margin-top: 3%;
+}
+
+.footerTop img{
+    width: 9%;
+}
+
+.footerTop hr{
+    width: 23%;
+    background-color: #000000;
+    height: 2.5px;
+    
+    margin-top: 1.5%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+  }
+
+
+
+
+
