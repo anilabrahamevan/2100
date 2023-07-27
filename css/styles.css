@@ -990,9 +990,9 @@ footer{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 60% auto;
+    grid-template-columns: 100% auto;
     grid-gap: 1%;
-    
+    padding: 1%;
 }
 
 .secCon1{
@@ -1012,29 +1012,15 @@ footer{
 }
 
 .column2{
-    display: flex;
-   gap: 1.5%;
-   flex-wrap: wrap;
-   align-items: center;
-   width: 200%;
-   position: relative;
-   overflow: hidden;
-   height: 96.5%;
+    display:none;
 }
 
 
-.column2 img:not(:nth-child(2)) {
+.column2 img {
     display: none;
   }
 
-.column2 img:nth-child(2){
-    display: block;
-    width: 100%;
-    
-}
-.grid-container{
-    margin-bottom: -1.5%;
-}
+
 
 /* Section 3 */
 
