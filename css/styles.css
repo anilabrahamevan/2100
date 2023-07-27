@@ -515,6 +515,7 @@ nav {
   }
   .sliderBackground1{
     display: block;
+    width: 100%;
   }
 
  .sliderImg0{
@@ -918,7 +919,7 @@ footer{
   }
   .sliderBackground1{
     display: block;
-    height: 44vh;
+    width: 100%;
   }
 
  .sliderImg0{
