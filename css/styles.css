@@ -100,6 +100,10 @@ h1{
     font-size: 120%;
     color: #892115;
 }
+h2{
+    font-size: 120%;
+    color: #892115;
+}
 
 .slider{
     margin-top: 1.5%;
@@ -376,7 +380,7 @@ h1{
     width: 110%;
 }
 
-.feedIn h1{
+.feedIn h2{
    font-size: 70%;
    margin-top: 6.5%;
    color: #474747;
@@ -764,7 +768,7 @@ nav {
     width: 110%;
 }
 
-.feedIn h1{
+.feedIn h2{
    font-size: 70%;
    margin-top: 6.5%;
    color: #474747;
@@ -1159,7 +1163,7 @@ footer{
     width: 110%;
 }
 
-.feedIn h1{
+.feedIn h2{
    font-size: 70%;
    margin-top: 3%;
    color: #474747;
