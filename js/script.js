@@ -28,3 +28,23 @@ sliderRight.addEventListener('click', showNextSlide);
 
 // Display the first slide initially
 showSlide(currentSlideIndex);
+
+
+// Nav Close/ Open
+
+let open = document.querySelector(".open");
+let close = document.querySelector(".close");
+let mobileNav = document.querySelector(".navMobile");
+
+
+open.addEventListener('click', (event) =>{
+  mobileNav.style.display = "flex";
+ 
+   console.log("hey")
+})
+
+close.addEventListener('click', (event) =>{
+    mobileNav.style.display = "none";
+    console.log("hey")
+})
+

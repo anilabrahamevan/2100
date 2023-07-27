@@ -667,7 +667,7 @@ nav {
     font-family: "Font2";
     font-size: 300%;
     margin-left: -19%;
-    color: #cfa44d;
+   
 }
 .info {
     margin-top: -12%;
@@ -857,18 +857,21 @@ footer{
     /* Mobile Nav */
 
     .navMobile {
-        display: block;
         position: absolute;
         height:1000vh ;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         z-index: 1000;
-        display: flex;
+        display: none;
         justify-content: center;
         width: 100vw;
         padding-top: 30%;
         top: 0;
+        overflow: hidden;
     }
+    
+  
 
+    
     .hamMenu img{
         display: block;
         width: 6%;
@@ -877,6 +880,19 @@ footer{
         float: right;
         cursor: pointer;
     }
+   
+
+    .navMobile img{
+        width: 5%;
+        z-index: 1000;
+        position: absolute;
+        top: 0;
+        margin-right: -80%;
+        margin-top: 4%;
+        cursor: pointer;
+    }
+
+    
 
     .navMobile a{
         text-decoration: none;
@@ -1054,7 +1070,7 @@ footer{
     font-family: "Font2";
     font-size: 300%;
     margin-left: -19%;
-    color: #cfa44d;
+    
 }
 .info {
     margin-top: -12%;
