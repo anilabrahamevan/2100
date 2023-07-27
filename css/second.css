@@ -1,0 +1,41 @@
+/* Section 5 */
+
+#second .secHead img{
+    width: 2%;
+    margin-top: -.3%;
+}
+
+#second{
+    margin-top: 1.5%;
+}
+
+.feeds{
+    font-family: "abby";
+    display: flex;
+    flex-wrap: wrap;
+    width: 63%;
+    margin-left: 20%;
+    margin-top: 1%;
+    
+    gap:1.5%;
+
+}
+
+.feedIn{
+   display: flex;
+   width: 28%;
+   flex-wrap: wrap;
+   margin-right: 2.8%;
+   margin-top: 2%;
+}
+
+.feedIn img{
+    width: 110%;
+}
+
+.feedIn h2{
+   font-size: 70%;
+   margin-top: 6.5%;
+   color: #474747;
+   margin-bottom: 3%;
+}
