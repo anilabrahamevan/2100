@@ -991,7 +991,6 @@ footer{
 .grid-container{
     display: grid;
     grid-template-columns: 100% auto;
-    grid-gap: 1%;
     padding: 1%;
 }
 
@@ -1037,7 +1036,7 @@ footer{
 .infoCon{
     display: flex;
     width: 110%;
-    margin-left: 15%;
+    margin-left: 20%;
     flex-wrap: wrap;
     gap: 5%;
     margin-top: 3%;
@@ -1046,18 +1045,24 @@ footer{
 }
 
 .infoMain{
-    width: 50%;
+    width: 80%;
     position: relative;
     margin-top: 1.5%;
-    margin-right: -10%;
+    
     margin-bottom: 4%;
 
 }
 
 .infoCon h2{
     font-family: "Font2";
-    font-size: 300%;
+    font-size: 500%;
     margin-left: -19%;
+    
+}
+.infoCon h3{
+    
+    font-size: 200%;
+    margin-left: 10%;
     
 }
 .info {
