@@ -430,6 +430,10 @@ footer{
     margin-top: -3.5%;
 }
 
+.footerRight a:hover{
+    color: #e75a4f;
+}
+
 .footerRight a{
     text-decoration: none;
     color: black;

@@ -9,33 +9,129 @@
     margin-top: 1.5%;
 }
 
-.feeds{
+.deals{
     font-family: "abby";
     display: flex;
     flex-wrap: wrap;
-    width: 63%;
+    width: 66.5%;
     margin-left: 20%;
     margin-top: 1%;
     
-    gap:1.5%;
+    gap: 3%;
 
 }
 
-.feedIn{
+.dealIn{
    display: flex;
-   width: 28%;
+   width: 40%;
    flex-wrap: wrap;
    margin-right: 2.8%;
    margin-top: 2%;
+  
 }
 
-.feedIn img{
+.dealIn img{
     width: 110%;
 }
 
-.feedIn h2{
+.dealIn h2{
    font-size: 70%;
    margin-top: 6.5%;
    color: #474747;
    margin-bottom: 3%;
 }
+
+/*! Tablet styles (between 640px and 1024px) */
+
+@media (min-width: 640px) and (max-width: 1024px) {
+
+
+#second .secHead img{
+    width: 3%;
+    margin-top: -.3%;
+    margin-left: -24%;
+    
+}
+
+#second{
+    margin-top: 3%;
+   
+}
+
+.deals{
+    font-family: "abby";
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 1%;
+    gap:3%;
+
+}
+
+.dealIn{
+   display: flex;
+   width: 43%;
+   flex-wrap: wrap;
+   margin-right: 2.8%;
+   margin-top: 2%;
+}
+
+.dealIn img{
+    width: 110%;
+}
+
+.dealIn h2{
+   font-size: 70%;
+   margin-top: 6.5%;
+   color: #474747;
+   margin-bottom: 3%;
+}
+}
+
+/*! Mobile styles (less than 640px) */
+@media (max-width: 639px) {
+    #second .secHead img{
+        width: 3%;
+        margin-top: -.3%;
+        margin-left: -24%;
+        
+    }
+    
+    #second{
+        margin-top: 3%;
+       
+    }
+    
+    .deals{
+        font-family: "abby";
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 2%;
+        margin-top: 1%;
+        gap:3%;
+    
+    }
+    
+    .dealIn{
+       display: flex;
+       width: 100%;
+       flex-wrap: wrap;
+       margin-right: 2.8%;
+       margin-top: 2%;
+    }
+    
+    .dealIn img{
+        width: 100%;
+    }
+    
+    .dealIn h2{
+       font-size: 70%;
+       margin-top: 3%;
+       color: #474747;
+       margin-bottom: 3%;
+    }
+}
+
+
