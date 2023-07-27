@@ -1048,8 +1048,7 @@ footer{
     width: 80%;
     position: relative;
     margin-top: 1.5%;
-    
-    margin-bottom: 4%;
+        margin-bottom: 4%;
 
 }
 
@@ -1066,7 +1065,7 @@ footer{
     
 }
 .info {
-    margin-top: -12%;
+    margin-top: -13%;
     width: 80%;
     font-family: "Font2";  
     font-size: 110%;
@@ -1074,7 +1073,9 @@ footer{
 
 
 .info p{
-    width: 80%;
+    width: 90%;
+    font-size: 110%;
+    margin-left: 10%;
 }
 
 /* Section 4 */
@@ -1098,23 +1099,22 @@ footer{
     width: 96%;
     margin-left: 2%;
     margin-top: 1%;
-    gap:1.5%;
+    
 }
 
 .news img{
-   width: 32.3%;
+   width: 100%;
    height: auto;
-   margin-bottom: 1.5%;
+   margin-bottom: 3%;
 }
 .news img:hover{
-   width: 32.3%;
-   height: auto;
-   margin-bottom: 1.5%;
+     height: auto;
+
 }
 
 .news p{
-    width: 32.3%;
-    
+    width: 100%;
+    margin-bottom: 3%;
 }
 
 .news p::before{
@@ -1149,7 +1149,7 @@ footer{
 
 .feedIn{
    display: flex;
-   width: 43%;
+   width: 100%;
    flex-wrap: wrap;
    margin-right: 2.8%;
    margin-top: 2%;
@@ -1161,7 +1161,7 @@ footer{
 
 .feedIn h1{
    font-size: 70%;
-   margin-top: 6.5%;
+   margin-top: 3%;
    color: #474747;
    margin-bottom: 3%;
 }
@@ -1175,7 +1175,6 @@ footer{
 .footerTop{
     display: flex;
     justify-content: center;
-    gap: 1.5%;
     margin-top: 8%;
     margin-bottom: 3%;
 }
@@ -1192,7 +1191,7 @@ footer{
 }
 
 .socials{
-  margin-left: 42%;
+  margin-left: 38%;
   margin-top: 2%;
     display: flex;
     gap: 8%;
@@ -1204,7 +1203,7 @@ footer{
 
 .footerRight{
     text-align: center;
-    margin-left: 1%;
+    margin-left: 0%;
     margin-top: 1%;
 }
 
