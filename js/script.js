@@ -35,16 +35,42 @@ showSlide(currentSlideIndex);
 let open = document.querySelector(".open");
 let close = document.querySelector(".close");
 let mobileNav = document.querySelector(".navMobile");
+let articleClose = document.querySelector(".art")
 
 
-open.addEventListener('click', (event) =>{
+open.addEventListener('click', () =>{
   mobileNav.style.display = "flex";
  
-   console.log("hey")
+   console.log("hello")
 })
 
-close.addEventListener('click', (event) =>{
+close.addEventListener('click', () =>{
     mobileNav.style.display = "none";
-    console.log("hey")
+    console.log("hello")
 })
+articleClose.addEventListener('click', () =>{
+    mobileNav.style.display = "none";
+    console.log("hello")
+})
+
+
+
+// JavaScript code for smooth scrolling
+document.addEventListener('DOMContentLoaded', function () {
+  const articlesLink = document.querySelector('nav ul li a[href="#sec4"]');
+  
+  if (articlesLink) {
+    articlesLink.addEventListener('click', function (event) {
+      mobileNav.style.display = "none";
+      event.preventDefault();
+      
+      const section = document.getElementById('sec4');
+      
+      
+      // Scroll to the section with smooth behavior
+      section.scrollIntoView({ behavior: 'smooth' });
+
+    });
+  }
+});
 

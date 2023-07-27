@@ -353,7 +353,8 @@ h2{
 }
 
 #sec4{
-    margin-top: 1.5%;
+ 
+    padding-top: 1.5%;
 }
 
 .feeds{
@@ -378,6 +379,11 @@ h2{
 
 .feedIn img{
     width: 110%;
+    transition: 1s ease;
+}
+.feedIn img:hover{
+    filter: brightness(50%);
+    cursor: pointer;
 }
 
 .feedIn h2{
